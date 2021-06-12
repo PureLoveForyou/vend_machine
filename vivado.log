@@ -1,0 +1,781 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Thu Jun 10 21:27:01 2021
+# Process ID: 1680
+# Current directory: C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab4/vend_machine
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent6536 C:\Documents\Sophomore2\Digital_logic_and_digital_system\DLDS\docs\Experiments\Lab4\vend_machine\vend_machine.xpr
+# Log file: C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab4/vend_machine/vivado.log
+# Journal file: C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab4/vend_machine\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab4/vend_machine/vend_machine.xpr
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab4/vend_machine'
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab4/vend_machine/bin2bcd'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Softwares/Vivado2018/Vivado/2018.2/data/ip'.
+open_project: Time (s): cpu = 00:00:14 ; elapsed = 00:00:09 . Memory (MB): peak = 827.680 ; gain = 116.445
+update_compile_order -fileset sources_1
+launch_simulation
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab4/vend_machine/vend_machine.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Softwares/Vivado2018/Vivado/2018.2/data/xsim/xsim.ini' copied to run dir:'C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab4/vend_machine/vend_machine.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'vend_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab4/vend_machine/vend_machine.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj vend_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab4/vend_machine/vend_machine.srcs/sources_1/ip/bin2bcd_0/bin2bcd.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bin2bcd
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab4/vend_machine/vend_machine.srcs/sources_1/ip/bin2bcd_0/sim/bin2bcd_0.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bin2bcd_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab4/vend_machine/vend_machine.srcs/sources_1/new/FourLights.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FourLights
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab4/vend_machine/vend_machine.srcs/sources_1/new/an_ctrl.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module an_ctrl
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab4/vend_machine/vend_machine.srcs/sources_1/new/clken.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clken
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab4/vend_machine/vend_machine.srcs/sources_1/new/edge_det.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module edge_det
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab4/vend_machine/vend_machine.srcs/sources_1/new/sec_clk.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sec_clk
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab4/vend_machine/vend_machine.srcs/sources_1/new/vend.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module vend
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab4/vend_machine/vend_machine.srcs/sources_1/new/vend_fsm.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module vend_fsm
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab4/vend_machine/vend_machine.srcs/sources_1/new/x7seg_d.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module x7seg_d
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab4/vend_machine/vend_machine.srcs/sim_1/new/vend_tb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module vend_tb
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab4/vend_machine/vend_machine.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Softwares/Vivado2018/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 4759c74710314b46925fb7d38686124c --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot vend_tb_behav xil_defaultlib.vend_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.clken
+Compiling module xil_defaultlib.edge_det
+Compiling module xil_defaultlib.sec_clk
+Compiling module xil_defaultlib.vend_fsm
+Compiling module xil_defaultlib.bin2bcd
+Compiling module xil_defaultlib.bin2bcd_0
+Compiling module xil_defaultlib.an_ctrl
+Compiling module xil_defaultlib.x7seg_d
+Compiling module xil_defaultlib.FourLights
+Compiling module xil_defaultlib.vend
+Compiling module xil_defaultlib.vend_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot vend_tb_behav
+
+****** Webtalk v2018.2 (64-bit)
+  **** SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+  **** IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab4/vend_machine/vend_machine.sim/sim_1/behav/xsim/xsim.dir/vend_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Thu Jun 10 21:38:09 2021...
+run_program: Time (s): cpu = 00:00:03 ; elapsed = 00:00:09 . Memory (MB): peak = 862.340 ; gain = 0.254
+INFO: [USF-XSim-69] 'elaborate' step finished in '9' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab4/vend_machine/vend_machine.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "vend_tb_behav -key {Behavioral:sim_1:Functional:vend_tb} -tclbatch {vend_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source vend_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+At time   0ns:sys_rst_n = 0, an = 1111, a_to_g = 11000000, open = x
+At time  20ns:sys_rst_n = 0, an = 1111, a_to_g = 11000000, open = 0
+At time 100ns:sys_rst_n = 1, an = 1111, a_to_g = 11000000, open = 0
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'vend_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:07 ; elapsed = 00:00:17 . Memory (MB): peak = 878.418 ; gain = 18.371
+run all
+At time 1020ns:sys_rst_n = 1, an = 1111, a_to_g = 11000000, open = 1
+At time 1000100ns:sys_rst_n = 1, an = 0001, a_to_g = 10010010, open = 1
+At time 2000100ns:sys_rst_n = 1, an = 0010, a_to_g = 11111001, open = 1
+At time 3000100ns:sys_rst_n = 1, an = 0100, a_to_g = 11000000, open = 1
+At time 4000100ns:sys_rst_n = 1, an = 1000, a_to_g = 11000000, open = 1
+At time 5000100ns:sys_rst_n = 1, an = 0001, a_to_g = 10010010, open = 1
+At time 6000100ns:sys_rst_n = 1, an = 0010, a_to_g = 11111001, open = 1
+At time 7000100ns:sys_rst_n = 1, an = 0100, a_to_g = 11000000, open = 1
+At time 8000100ns:sys_rst_n = 1, an = 1000, a_to_g = 11000000, open = 1
+At time 9000100ns:sys_rst_n = 1, an = 0001, a_to_g = 10010010, open = 1
+At time 10000100ns:sys_rst_n = 1, an = 0010, a_to_g = 11111001, open = 1
+At time 11000100ns:sys_rst_n = 1, an = 0100, a_to_g = 11000000, open = 1
+At time 12000100ns:sys_rst_n = 1, an = 1000, a_to_g = 11000000, open = 1
+At time 13000100ns:sys_rst_n = 1, an = 0001, a_to_g = 10010010, open = 1
+At time 14000100ns:sys_rst_n = 1, an = 0010, a_to_g = 11111001, open = 1
+At time 15000100ns:sys_rst_n = 1, an = 0100, a_to_g = 11000000, open = 1
+At time 16000100ns:sys_rst_n = 1, an = 1000, a_to_g = 11000000, open = 1
+At time 17000100ns:sys_rst_n = 1, an = 0001, a_to_g = 10010010, open = 1
+At time 18000100ns:sys_rst_n = 1, an = 0010, a_to_g = 11111001, open = 1
+At time 19000100ns:sys_rst_n = 1, an = 0100, a_to_g = 11000000, open = 1
+At time 20000100ns:sys_rst_n = 1, an = 1000, a_to_g = 11000000, open = 1
+At time 21000100ns:sys_rst_n = 1, an = 0001, a_to_g = 10010010, open = 1
+At time 22000100ns:sys_rst_n = 1, an = 0010, a_to_g = 11111001, open = 1
+At time 23000100ns:sys_rst_n = 1, an = 0100, a_to_g = 11000000, open = 1
+At time 24000100ns:sys_rst_n = 1, an = 1000, a_to_g = 11000000, open = 1
+At time 25000100ns:sys_rst_n = 1, an = 0001, a_to_g = 10010010, open = 1
+At time 26000100ns:sys_rst_n = 1, an = 0010, a_to_g = 11111001, open = 1
+At time 27000100ns:sys_rst_n = 1, an = 0100, a_to_g = 11000000, open = 1
+At time 28000100ns:sys_rst_n = 1, an = 1000, a_to_g = 11000000, open = 1
+At time 29000100ns:sys_rst_n = 1, an = 0001, a_to_g = 10010010, open = 1
+At time 30000100ns:sys_rst_n = 1, an = 0010, a_to_g = 11111001, open = 1
+At time 31000100ns:sys_rst_n = 1, an = 0100, a_to_g = 11000000, open = 1
+At time 32000100ns:sys_rst_n = 1, an = 1000, a_to_g = 11000000, open = 1
+At time 33000100ns:sys_rst_n = 1, an = 0001, a_to_g = 10010010, open = 1
+At time 34000100ns:sys_rst_n = 1, an = 0010, a_to_g = 11111001, open = 1
+At time 35000100ns:sys_rst_n = 1, an = 0100, a_to_g = 11000000, open = 1
+At time 36000100ns:sys_rst_n = 1, an = 1000, a_to_g = 11000000, open = 1
+At time 37000100ns:sys_rst_n = 1, an = 0001, a_to_g = 10010010, open = 1
+At time 38000100ns:sys_rst_n = 1, an = 0010, a_to_g = 11111001, open = 1
+At time 39000100ns:sys_rst_n = 1, an = 0100, a_to_g = 11000000, open = 1
+At time 40000100ns:sys_rst_n = 1, an = 1000, a_to_g = 11000000, open = 1
+At time 41000100ns:sys_rst_n = 1, an = 0001, a_to_g = 10010010, open = 1
+At time 42000100ns:sys_rst_n = 1, an = 0010, a_to_g = 11111001, open = 1
+At time 43000100ns:sys_rst_n = 1, an = 0100, a_to_g = 11000000, open = 1
+At time 44000100ns:sys_rst_n = 1, an = 1000, a_to_g = 11000000, open = 1
+At time 45000100ns:sys_rst_n = 1, an = 0001, a_to_g = 10010010, open = 1
+At time 46000100ns:sys_rst_n = 1, an = 0010, a_to_g = 11111001, open = 1
+At time 47000100ns:sys_rst_n = 1, an = 0100, a_to_g = 11000000, open = 1
+At time 48000100ns:sys_rst_n = 1, an = 1000, a_to_g = 11000000, open = 1
+At time 49000100ns:sys_rst_n = 1, an = 0001, a_to_g = 10010010, open = 1
+At time 50000100ns:sys_rst_n = 1, an = 0010, a_to_g = 11111001, open = 1
+At time 51000100ns:sys_rst_n = 1, an = 0100, a_to_g = 11000000, open = 1
+At time 52000100ns:sys_rst_n = 1, an = 1000, a_to_g = 11000000, open = 1
+At time 53000100ns:sys_rst_n = 1, an = 0001, a_to_g = 10010010, open = 1
+At time 54000100ns:sys_rst_n = 1, an = 0010, a_to_g = 11111001, open = 1
+At time 55000100ns:sys_rst_n = 1, an = 0100, a_to_g = 11000000, open = 1
+At time 56000100ns:sys_rst_n = 1, an = 1000, a_to_g = 11000000, open = 1
+At time 57000100ns:sys_rst_n = 1, an = 0001, a_to_g = 10010010, open = 1
+At time 58000100ns:sys_rst_n = 1, an = 0010, a_to_g = 11111001, open = 1
+At time 59000100ns:sys_rst_n = 1, an = 0100, a_to_g = 11000000, open = 1
+At time 60000100ns:sys_rst_n = 1, an = 1000, a_to_g = 11000000, open = 1
+At time 61000100ns:sys_rst_n = 1, an = 0001, a_to_g = 10010010, open = 1
+At time 62000100ns:sys_rst_n = 1, an = 0010, a_to_g = 11111001, open = 1
+At time 63000100ns:sys_rst_n = 1, an = 0100, a_to_g = 11000000, open = 1
+At time 64000100ns:sys_rst_n = 1, an = 1000, a_to_g = 11000000, open = 1
+At time 65000100ns:sys_rst_n = 1, an = 0001, a_to_g = 10010010, open = 1
+At time 66000100ns:sys_rst_n = 1, an = 0010, a_to_g = 11111001, open = 1
+At time 67000100ns:sys_rst_n = 1, an = 0100, a_to_g = 11000000, open = 1
+At time 68000100ns:sys_rst_n = 1, an = 1000, a_to_g = 11000000, open = 1
+At time 69000100ns:sys_rst_n = 1, an = 0001, a_to_g = 10010010, open = 1
+At time 70000100ns:sys_rst_n = 1, an = 0010, a_to_g = 11111001, open = 1
+At time 71000100ns:sys_rst_n = 1, an = 0100, a_to_g = 11000000, open = 1
+At time 72000100ns:sys_rst_n = 1, an = 1000, a_to_g = 11000000, open = 1
+At time 73000100ns:sys_rst_n = 1, an = 0001, a_to_g = 10010010, open = 1
+At time 74000100ns:sys_rst_n = 1, an = 0010, a_to_g = 11111001, open = 1
+At time 75000100ns:sys_rst_n = 1, an = 0100, a_to_g = 11000000, open = 1
+At time 76000100ns:sys_rst_n = 1, an = 1000, a_to_g = 11000000, open = 1
+At time 77000100ns:sys_rst_n = 1, an = 0001, a_to_g = 10010010, open = 1
+At time 78000100ns:sys_rst_n = 1, an = 0010, a_to_g = 11111001, open = 1
+At time 79000100ns:sys_rst_n = 1, an = 0100, a_to_g = 11000000, open = 1
+At time 80000100ns:sys_rst_n = 1, an = 1000, a_to_g = 11000000, open = 1
+At time 81000100ns:sys_rst_n = 1, an = 0001, a_to_g = 10010010, open = 1
+At time 82000100ns:sys_rst_n = 1, an = 0010, a_to_g = 11111001, open = 1
+At time 83000100ns:sys_rst_n = 1, an = 0100, a_to_g = 11000000, open = 1
+At time 84000100ns:sys_rst_n = 1, an = 1000, a_to_g = 11000000, open = 1
+At time 85000100ns:sys_rst_n = 1, an = 0001, a_to_g = 10010010, open = 1
+At time 86000100ns:sys_rst_n = 1, an = 0010, a_to_g = 11111001, open = 1
+At time 87000100ns:sys_rst_n = 1, an = 0100, a_to_g = 11000000, open = 1
+At time 88000100ns:sys_rst_n = 1, an = 1000, a_to_g = 11000000, open = 1
+At time 89000100ns:sys_rst_n = 1, an = 0001, a_to_g = 10010010, open = 1
+At time 90000100ns:sys_rst_n = 1, an = 0010, a_to_g = 11111001, open = 1
+At time 91000100ns:sys_rst_n = 1, an = 0100, a_to_g = 11000000, open = 1
+At time 92000100ns:sys_rst_n = 1, an = 1000, a_to_g = 11000000, open = 1
+At time 93000100ns:sys_rst_n = 1, an = 0001, a_to_g = 10010010, open = 1
+At time 94000100ns:sys_rst_n = 1, an = 0010, a_to_g = 11111001, open = 1
+At time 95000100ns:sys_rst_n = 1, an = 0100, a_to_g = 11000000, open = 1
+At time 96000100ns:sys_rst_n = 1, an = 1000, a_to_g = 11000000, open = 1
+At time 97000100ns:sys_rst_n = 1, an = 0001, a_to_g = 10010010, open = 1
+At time 98000100ns:sys_rst_n = 1, an = 0010, a_to_g = 11111001, open = 1
+At time 99000100ns:sys_rst_n = 1, an = 0100, a_to_g = 11000000, open = 1
+At time 100000100ns:sys_rst_n = 1, an = 1000, a_to_g = 11000000, open = 1
+At time 101000100ns:sys_rst_n = 1, an = 0001, a_to_g = 10010010, open = 1
+At time 102000100ns:sys_rst_n = 1, an = 0010, a_to_g = 11111001, open = 1
+At time 103000100ns:sys_rst_n = 1, an = 0100, a_to_g = 11000000, open = 1
+At time 104000100ns:sys_rst_n = 1, an = 1000, a_to_g = 11000000, open = 1
+At time 105000100ns:sys_rst_n = 1, an = 0001, a_to_g = 10010010, open = 1
+At time 106000100ns:sys_rst_n = 1, an = 0010, a_to_g = 11111001, open = 1
+At time 107000100ns:sys_rst_n = 1, an = 0100, a_to_g = 11000000, open = 1
+At time 108000100ns:sys_rst_n = 1, an = 1000, a_to_g = 11000000, open = 1
+At time 109000100ns:sys_rst_n = 1, an = 0001, a_to_g = 10010010, open = 1
+At time 110000100ns:sys_rst_n = 1, an = 0010, a_to_g = 11111001, open = 1
+At time 111000100ns:sys_rst_n = 1, an = 0100, a_to_g = 11000000, open = 1
+At time 112000100ns:sys_rst_n = 1, an = 1000, a_to_g = 11000000, open = 1
+At time 113000100ns:sys_rst_n = 1, an = 0001, a_to_g = 10010010, open = 1
+At time 114000100ns:sys_rst_n = 1, an = 0010, a_to_g = 11111001, open = 1
+At time 115000100ns:sys_rst_n = 1, an = 0100, a_to_g = 11000000, open = 1
+At time 116000100ns:sys_rst_n = 1, an = 1000, a_to_g = 11000000, open = 1
+At time 117000100ns:sys_rst_n = 1, an = 0001, a_to_g = 10010010, open = 1
+At time 118000100ns:sys_rst_n = 1, an = 0010, a_to_g = 11111001, open = 1
+At time 119000100ns:sys_rst_n = 1, an = 0100, a_to_g = 11000000, open = 1
+At time 120000100ns:sys_rst_n = 1, an = 1000, a_to_g = 11000000, open = 1
+At time 121000100ns:sys_rst_n = 1, an = 0001, a_to_g = 10010010, open = 1
+At time 122000100ns:sys_rst_n = 1, an = 0010, a_to_g = 11111001, open = 1
+At time 123000100ns:sys_rst_n = 1, an = 0100, a_to_g = 11000000, open = 1
+At time 124000100ns:sys_rst_n = 1, an = 1000, a_to_g = 11000000, open = 1
+At time 125000100ns:sys_rst_n = 1, an = 0001, a_to_g = 10010010, open = 1
+At time 126000100ns:sys_rst_n = 1, an = 0010, a_to_g = 11111001, open = 1
+At time 127000100ns:sys_rst_n = 1, an = 0100, a_to_g = 11000000, open = 1
+At time 128000100ns:sys_rst_n = 1, an = 1000, a_to_g = 11000000, open = 1
+At time 129000100ns:sys_rst_n = 1, an = 0001, a_to_g = 10010010, open = 1
+At time 130000100ns:sys_rst_n = 1, an = 0010, a_to_g = 11111001, open = 1
+At time 131000100ns:sys_rst_n = 1, an = 0100, a_to_g = 11000000, open = 1
+At time 132000100ns:sys_rst_n = 1, an = 1000, a_to_g = 11000000, open = 1
+At time 133000100ns:sys_rst_n = 1, an = 0001, a_to_g = 10010010, open = 1
+At time 134000100ns:sys_rst_n = 1, an = 0010, a_to_g = 11111001, open = 1
+At time 135000100ns:sys_rst_n = 1, an = 0100, a_to_g = 11000000, open = 1
+At time 136000100ns:sys_rst_n = 1, an = 1000, a_to_g = 11000000, open = 1
+At time 137000100ns:sys_rst_n = 1, an = 0001, a_to_g = 10010010, open = 1
+At time 138000100ns:sys_rst_n = 1, an = 0010, a_to_g = 11111001, open = 1
+At time 139000100ns:sys_rst_n = 1, an = 0100, a_to_g = 11000000, open = 1
+At time 140000100ns:sys_rst_n = 1, an = 1000, a_to_g = 11000000, open = 1
+At time 141000100ns:sys_rst_n = 1, an = 0001, a_to_g = 10010010, open = 1
+At time 142000100ns:sys_rst_n = 1, an = 0010, a_to_g = 11111001, open = 1
+At time 143000100ns:sys_rst_n = 1, an = 0100, a_to_g = 11000000, open = 1
+At time 144000100ns:sys_rst_n = 1, an = 1000, a_to_g = 11000000, open = 1
+At time 145000100ns:sys_rst_n = 1, an = 0001, a_to_g = 10010010, open = 1
+At time 146000100ns:sys_rst_n = 1, an = 0010, a_to_g = 11111001, open = 1
+At time 147000100ns:sys_rst_n = 1, an = 0100, a_to_g = 11000000, open = 1
+At time 148000100ns:sys_rst_n = 1, an = 1000, a_to_g = 11000000, open = 1
+At time 149000100ns:sys_rst_n = 1, an = 0001, a_to_g = 10010010, open = 1
+At time 150000100ns:sys_rst_n = 1, an = 0010, a_to_g = 11111001, open = 1
+At time 151000100ns:sys_rst_n = 1, an = 0100, a_to_g = 11000000, open = 1
+At time 152000100ns:sys_rst_n = 1, an = 1000, a_to_g = 11000000, open = 1
+At time 153000100ns:sys_rst_n = 1, an = 0001, a_to_g = 10010010, open = 1
+At time 154000100ns:sys_rst_n = 1, an = 0010, a_to_g = 11111001, open = 1
+At time 155000100ns:sys_rst_n = 1, an = 0100, a_to_g = 11000000, open = 1
+At time 156000100ns:sys_rst_n = 1, an = 1000, a_to_g = 11000000, open = 1
+At time 157000100ns:sys_rst_n = 1, an = 0001, a_to_g = 10010010, open = 1
+At time 158000100ns:sys_rst_n = 1, an = 0010, a_to_g = 11111001, open = 1
+At time 159000100ns:sys_rst_n = 1, an = 0100, a_to_g = 11000000, open = 1
+At time 160000100ns:sys_rst_n = 1, an = 1000, a_to_g = 11000000, open = 1
+At time 161000100ns:sys_rst_n = 1, an = 0001, a_to_g = 10010010, open = 1
+At time 162000100ns:sys_rst_n = 1, an = 0010, a_to_g = 11111001, open = 1
+At time 163000100ns:sys_rst_n = 1, an = 0100, a_to_g = 11000000, open = 1
+At time 164000100ns:sys_rst_n = 1, an = 1000, a_to_g = 11000000, open = 1
+At time 165000100ns:sys_rst_n = 1, an = 0001, a_to_g = 10010010, open = 1
+At time 166000100ns:sys_rst_n = 1, an = 0010, a_to_g = 11111001, open = 1
+At time 167000100ns:sys_rst_n = 1, an = 0100, a_to_g = 11000000, open = 1
+At time 168000100ns:sys_rst_n = 1, an = 1000, a_to_g = 11000000, open = 1
+At time 169000100ns:sys_rst_n = 1, an = 0001, a_to_g = 10010010, open = 1
+At time 170000100ns:sys_rst_n = 1, an = 0010, a_to_g = 11111001, open = 1
+At time 171000100ns:sys_rst_n = 1, an = 0100, a_to_g = 11000000, open = 1
+At time 172000100ns:sys_rst_n = 1, an = 1000, a_to_g = 11000000, open = 1
+At time 173000100ns:sys_rst_n = 1, an = 0001, a_to_g = 10010010, open = 1
+At time 174000100ns:sys_rst_n = 1, an = 0010, a_to_g = 11111001, open = 1
+At time 175000100ns:sys_rst_n = 1, an = 0100, a_to_g = 11000000, open = 1
+At time 176000100ns:sys_rst_n = 1, an = 1000, a_to_g = 11000000, open = 1
+At time 177000100ns:sys_rst_n = 1, an = 0001, a_to_g = 10010010, open = 1
+At time 178000100ns:sys_rst_n = 1, an = 0010, a_to_g = 11111001, open = 1
+At time 179000100ns:sys_rst_n = 1, an = 0100, a_to_g = 11000000, open = 1
+At time 180000100ns:sys_rst_n = 1, an = 1000, a_to_g = 11000000, open = 1
+At time 181000100ns:sys_rst_n = 1, an = 0001, a_to_g = 10010010, open = 1
+At time 182000100ns:sys_rst_n = 1, an = 0010, a_to_g = 11111001, open = 1
+At time 183000100ns:sys_rst_n = 1, an = 0100, a_to_g = 11000000, open = 1
+At time 184000100ns:sys_rst_n = 1, an = 1000, a_to_g = 11000000, open = 1
+At time 185000100ns:sys_rst_n = 1, an = 0001, a_to_g = 10010010, open = 1
+At time 186000100ns:sys_rst_n = 1, an = 0010, a_to_g = 11111001, open = 1
+At time 187000100ns:sys_rst_n = 1, an = 0100, a_to_g = 11000000, open = 1
+At time 188000100ns:sys_rst_n = 1, an = 1000, a_to_g = 11000000, open = 1
+At time 189000100ns:sys_rst_n = 1, an = 0001, a_to_g = 10010010, open = 1
+At time 190000100ns:sys_rst_n = 1, an = 0010, a_to_g = 11111001, open = 1
+At time 191000100ns:sys_rst_n = 1, an = 0100, a_to_g = 11000000, open = 1
+At time 192000100ns:sys_rst_n = 1, an = 1000, a_to_g = 11000000, open = 1
+At time 193000100ns:sys_rst_n = 1, an = 0001, a_to_g = 10010010, open = 1
+At time 194000100ns:sys_rst_n = 1, an = 0010, a_to_g = 11111001, open = 1
+At time 195000100ns:sys_rst_n = 1, an = 0100, a_to_g = 11000000, open = 1
+At time 196000100ns:sys_rst_n = 1, an = 1000, a_to_g = 11000000, open = 1
+At time 197000100ns:sys_rst_n = 1, an = 0001, a_to_g = 10010010, open = 1
+At time 198000100ns:sys_rst_n = 1, an = 0010, a_to_g = 11111001, open = 1
+At time 199000100ns:sys_rst_n = 1, an = 0100, a_to_g = 11000000, open = 1
+At time 200000100ns:sys_rst_n = 1, an = 1000, a_to_g = 11000000, open = 1
+At time 201000100ns:sys_rst_n = 1, an = 0001, a_to_g = 10010010, open = 1
+At time 202000100ns:sys_rst_n = 1, an = 0010, a_to_g = 11111001, open = 1
+At time 203000100ns:sys_rst_n = 1, an = 0100, a_to_g = 11000000, open = 1
+At time 204000100ns:sys_rst_n = 1, an = 1000, a_to_g = 11000000, open = 1
+At time 205000100ns:sys_rst_n = 1, an = 0001, a_to_g = 10010010, open = 1
+At time 206000100ns:sys_rst_n = 1, an = 0010, a_to_g = 11111001, open = 1
+At time 207000100ns:sys_rst_n = 1, an = 0100, a_to_g = 11000000, open = 1
+At time 208000100ns:sys_rst_n = 1, an = 1000, a_to_g = 11000000, open = 1
+At time 209000100ns:sys_rst_n = 1, an = 0001, a_to_g = 10010010, open = 1
+At time 210000100ns:sys_rst_n = 1, an = 0010, a_to_g = 11111001, open = 1
+At time 211000100ns:sys_rst_n = 1, an = 0100, a_to_g = 11000000, open = 1
+At time 212000100ns:sys_rst_n = 1, an = 1000, a_to_g = 11000000, open = 1
+At time 213000100ns:sys_rst_n = 1, an = 0001, a_to_g = 10010010, open = 1
+At time 214000100ns:sys_rst_n = 1, an = 0010, a_to_g = 11111001, open = 1
+At time 215000100ns:sys_rst_n = 1, an = 0100, a_to_g = 11000000, open = 1
+At time 216000100ns:sys_rst_n = 1, an = 1000, a_to_g = 11000000, open = 1
+At time 217000100ns:sys_rst_n = 1, an = 0001, a_to_g = 10010010, open = 1
+At time 218000100ns:sys_rst_n = 1, an = 0010, a_to_g = 11111001, open = 1
+At time 219000100ns:sys_rst_n = 1, an = 0100, a_to_g = 11000000, open = 1
+At time 220000100ns:sys_rst_n = 1, an = 1000, a_to_g = 11000000, open = 1
+At time 221000100ns:sys_rst_n = 1, an = 0001, a_to_g = 10010010, open = 1
+At time 222000100ns:sys_rst_n = 1, an = 0010, a_to_g = 11111001, open = 1
+At time 223000100ns:sys_rst_n = 1, an = 0100, a_to_g = 11000000, open = 1
+At time 224000100ns:sys_rst_n = 1, an = 1000, a_to_g = 11000000, open = 1
+At time 225000100ns:sys_rst_n = 1, an = 0001, a_to_g = 10010010, open = 1
+At time 226000100ns:sys_rst_n = 1, an = 0010, a_to_g = 11111001, open = 1
+At time 227000100ns:sys_rst_n = 1, an = 0100, a_to_g = 11000000, open = 1
+At time 228000100ns:sys_rst_n = 1, an = 1000, a_to_g = 11000000, open = 1
+At time 229000100ns:sys_rst_n = 1, an = 0001, a_to_g = 10010010, open = 1
+At time 230000100ns:sys_rst_n = 1, an = 0010, a_to_g = 11111001, open = 1
+At time 231000100ns:sys_rst_n = 1, an = 0100, a_to_g = 11000000, open = 1
+At time 232000100ns:sys_rst_n = 1, an = 1000, a_to_g = 11000000, open = 1
+At time 233000100ns:sys_rst_n = 1, an = 0001, a_to_g = 10010010, open = 1
+At time 234000100ns:sys_rst_n = 1, an = 0010, a_to_g = 11111001, open = 1
+At time 235000100ns:sys_rst_n = 1, an = 0100, a_to_g = 11000000, open = 1
+At time 236000100ns:sys_rst_n = 1, an = 1000, a_to_g = 11000000, open = 1
+At time 237000100ns:sys_rst_n = 1, an = 0001, a_to_g = 10010010, open = 1
+At time 238000100ns:sys_rst_n = 1, an = 0010, a_to_g = 11111001, open = 1
+At time 239000100ns:sys_rst_n = 1, an = 0100, a_to_g = 11000000, open = 1
+At time 240000100ns:sys_rst_n = 1, an = 1000, a_to_g = 11000000, open = 1
+At time 241000100ns:sys_rst_n = 1, an = 0001, a_to_g = 10010010, open = 1
+At time 242000100ns:sys_rst_n = 1, an = 0010, a_to_g = 11111001, open = 1
+At time 243000100ns:sys_rst_n = 1, an = 0100, a_to_g = 11000000, open = 1
+At time 244000100ns:sys_rst_n = 1, an = 1000, a_to_g = 11000000, open = 1
+At time 245000100ns:sys_rst_n = 1, an = 0001, a_to_g = 10010010, open = 1
+At time 246000100ns:sys_rst_n = 1, an = 0010, a_to_g = 11111001, open = 1
+At time 247000100ns:sys_rst_n = 1, an = 0100, a_to_g = 11000000, open = 1
+At time 248000100ns:sys_rst_n = 1, an = 1000, a_to_g = 11000000, open = 1
+At time 249000100ns:sys_rst_n = 1, an = 0001, a_to_g = 10010010, open = 1
+At time 250000100ns:sys_rst_n = 1, an = 0010, a_to_g = 11111001, open = 1
+At time 251000100ns:sys_rst_n = 1, an = 0100, a_to_g = 11000000, open = 1
+run: Time (s): cpu = 00:00:14 ; elapsed = 00:00:13 . Memory (MB): peak = 880.047 ; gain = 0.449
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:03 ; elapsed = 00:00:08 . Memory (MB): peak = 882.043 ; gain = 1.996
+launch_simulation
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab4/vend_machine/vend_machine.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Softwares/Vivado2018/Vivado/2018.2/data/xsim/xsim.ini' copied to run dir:'C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab4/vend_machine/vend_machine.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'vend_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab4/vend_machine/vend_machine.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj vend_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab4/vend_machine/vend_machine.srcs/sources_1/ip/bin2bcd_0/bin2bcd.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bin2bcd
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab4/vend_machine/vend_machine.srcs/sources_1/ip/bin2bcd_0/sim/bin2bcd_0.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bin2bcd_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab4/vend_machine/vend_machine.srcs/sources_1/new/FourLights.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FourLights
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab4/vend_machine/vend_machine.srcs/sources_1/new/an_ctrl.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module an_ctrl
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab4/vend_machine/vend_machine.srcs/sources_1/new/clken.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clken
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab4/vend_machine/vend_machine.srcs/sources_1/new/edge_det.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module edge_det
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab4/vend_machine/vend_machine.srcs/sources_1/new/sec_clk.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sec_clk
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab4/vend_machine/vend_machine.srcs/sources_1/new/vend.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module vend
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab4/vend_machine/vend_machine.srcs/sources_1/new/vend_fsm.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module vend_fsm
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab4/vend_machine/vend_machine.srcs/sources_1/new/x7seg_d.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module x7seg_d
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab4/vend_machine/vend_machine.srcs/sim_1/new/vend_tb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module vend_tb
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab4/vend_machine/vend_machine.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Softwares/Vivado2018/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 4759c74710314b46925fb7d38686124c --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot vend_tb_behav xil_defaultlib.vend_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.clken
+Compiling module xil_defaultlib.edge_det
+Compiling module xil_defaultlib.sec_clk
+Compiling module xil_defaultlib.vend_fsm
+Compiling module xil_defaultlib.bin2bcd
+Compiling module xil_defaultlib.bin2bcd_0
+Compiling module xil_defaultlib.an_ctrl
+Compiling module xil_defaultlib.x7seg_d
+Compiling module xil_defaultlib.FourLights
+Compiling module xil_defaultlib.vend
+Compiling module xil_defaultlib.vend_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot vend_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab4/vend_machine/vend_machine.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "vend_tb_behav -key {Behavioral:sim_1:Functional:vend_tb} -tclbatch {vend_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source vend_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+At time   0ns:sys_rst_n = 0, an = 1111, a_to_g = 11000000, open = x
+At time  20ns:sys_rst_n = 0, an = 1111, a_to_g = 11000000, open = 0
+At time 100ns:sys_rst_n = 1, an = 1111, a_to_g = 11000000, open = 0
+At time 660ns:sys_rst_n = 1, an = 1111, a_to_g = 11000000, open = 1
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'vend_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:10 . Memory (MB): peak = 886.023 ; gain = 3.980
+run all
+At time 1000100ns:sys_rst_n = 1, an = 0001, a_to_g = 11000000, open = 1
+At time 2000100ns:sys_rst_n = 1, an = 0010, a_to_g = 10100100, open = 1
+At time 3000100ns:sys_rst_n = 1, an = 0100, a_to_g = 10010010, open = 1
+At time 4000100ns:sys_rst_n = 1, an = 1000, a_to_g = 11000000, open = 1
+At time 5000100ns:sys_rst_n = 1, an = 0001, a_to_g = 11000000, open = 1
+At time 6000100ns:sys_rst_n = 1, an = 0010, a_to_g = 10100100, open = 1
+At time 7000100ns:sys_rst_n = 1, an = 0100, a_to_g = 10010010, open = 1
+At time 8000100ns:sys_rst_n = 1, an = 1000, a_to_g = 11000000, open = 1
+At time 9000100ns:sys_rst_n = 1, an = 0001, a_to_g = 11000000, open = 1
+At time 10000100ns:sys_rst_n = 1, an = 0010, a_to_g = 10100100, open = 1
+At time 11000100ns:sys_rst_n = 1, an = 0100, a_to_g = 10010010, open = 1
+At time 12000100ns:sys_rst_n = 1, an = 1000, a_to_g = 11000000, open = 1
+At time 13000100ns:sys_rst_n = 1, an = 0001, a_to_g = 11000000, open = 1
+At time 14000100ns:sys_rst_n = 1, an = 0010, a_to_g = 10100100, open = 1
+At time 15000100ns:sys_rst_n = 1, an = 0100, a_to_g = 10010010, open = 1
+At time 16000100ns:sys_rst_n = 1, an = 1000, a_to_g = 11000000, open = 1
+At time 17000100ns:sys_rst_n = 1, an = 0001, a_to_g = 11000000, open = 1
+At time 18000100ns:sys_rst_n = 1, an = 0010, a_to_g = 10100100, open = 1
+At time 19000100ns:sys_rst_n = 1, an = 0100, a_to_g = 10010010, open = 1
+At time 20000100ns:sys_rst_n = 1, an = 1000, a_to_g = 11000000, open = 1
+At time 21000100ns:sys_rst_n = 1, an = 0001, a_to_g = 11000000, open = 1
+At time 22000100ns:sys_rst_n = 1, an = 0010, a_to_g = 10100100, open = 1
+At time 23000100ns:sys_rst_n = 1, an = 0100, a_to_g = 10010010, open = 1
+At time 24000100ns:sys_rst_n = 1, an = 1000, a_to_g = 11000000, open = 1
+At time 25000100ns:sys_rst_n = 1, an = 0001, a_to_g = 11000000, open = 1
+At time 26000100ns:sys_rst_n = 1, an = 0010, a_to_g = 10100100, open = 1
+At time 27000100ns:sys_rst_n = 1, an = 0100, a_to_g = 10010010, open = 1
+At time 28000100ns:sys_rst_n = 1, an = 1000, a_to_g = 11000000, open = 1
+At time 29000100ns:sys_rst_n = 1, an = 0001, a_to_g = 11000000, open = 1
+At time 30000100ns:sys_rst_n = 1, an = 0010, a_to_g = 10100100, open = 1
+At time 31000100ns:sys_rst_n = 1, an = 0100, a_to_g = 10010010, open = 1
+At time 32000100ns:sys_rst_n = 1, an = 1000, a_to_g = 11000000, open = 1
+At time 33000100ns:sys_rst_n = 1, an = 0001, a_to_g = 11000000, open = 1
+At time 34000100ns:sys_rst_n = 1, an = 0010, a_to_g = 10100100, open = 1
+At time 35000100ns:sys_rst_n = 1, an = 0100, a_to_g = 10010010, open = 1
+At time 36000100ns:sys_rst_n = 1, an = 1000, a_to_g = 11000000, open = 1
+At time 37000100ns:sys_rst_n = 1, an = 0001, a_to_g = 11000000, open = 1
+At time 38000100ns:sys_rst_n = 1, an = 0010, a_to_g = 10100100, open = 1
+At time 39000100ns:sys_rst_n = 1, an = 0100, a_to_g = 10010010, open = 1
+At time 40000100ns:sys_rst_n = 1, an = 1000, a_to_g = 11000000, open = 1
+At time 41000100ns:sys_rst_n = 1, an = 0001, a_to_g = 11000000, open = 1
+At time 42000100ns:sys_rst_n = 1, an = 0010, a_to_g = 10100100, open = 1
+At time 43000100ns:sys_rst_n = 1, an = 0100, a_to_g = 10010010, open = 1
+At time 44000100ns:sys_rst_n = 1, an = 1000, a_to_g = 11000000, open = 1
+At time 45000100ns:sys_rst_n = 1, an = 0001, a_to_g = 11000000, open = 1
+At time 46000100ns:sys_rst_n = 1, an = 0010, a_to_g = 10100100, open = 1
+At time 47000100ns:sys_rst_n = 1, an = 0100, a_to_g = 10010010, open = 1
+At time 48000100ns:sys_rst_n = 1, an = 1000, a_to_g = 11000000, open = 1
+At time 49000100ns:sys_rst_n = 1, an = 0001, a_to_g = 11000000, open = 1
+At time 50000100ns:sys_rst_n = 1, an = 0010, a_to_g = 10100100, open = 1
+At time 51000100ns:sys_rst_n = 1, an = 0100, a_to_g = 10010010, open = 1
+At time 52000100ns:sys_rst_n = 1, an = 1000, a_to_g = 11000000, open = 1
+At time 53000100ns:sys_rst_n = 1, an = 0001, a_to_g = 11000000, open = 1
+At time 54000100ns:sys_rst_n = 1, an = 0010, a_to_g = 10100100, open = 1
+At time 55000100ns:sys_rst_n = 1, an = 0100, a_to_g = 10010010, open = 1
+At time 56000100ns:sys_rst_n = 1, an = 1000, a_to_g = 11000000, open = 1
+At time 57000100ns:sys_rst_n = 1, an = 0001, a_to_g = 11000000, open = 1
+At time 58000100ns:sys_rst_n = 1, an = 0010, a_to_g = 10100100, open = 1
+At time 59000100ns:sys_rst_n = 1, an = 0100, a_to_g = 10010010, open = 1
+At time 60000100ns:sys_rst_n = 1, an = 1000, a_to_g = 11000000, open = 1
+At time 61000100ns:sys_rst_n = 1, an = 0001, a_to_g = 11000000, open = 1
+At time 62000100ns:sys_rst_n = 1, an = 0010, a_to_g = 10100100, open = 1
+At time 63000100ns:sys_rst_n = 1, an = 0100, a_to_g = 10010010, open = 1
+At time 64000100ns:sys_rst_n = 1, an = 1000, a_to_g = 11000000, open = 1
+At time 65000100ns:sys_rst_n = 1, an = 0001, a_to_g = 11000000, open = 1
+At time 66000100ns:sys_rst_n = 1, an = 0010, a_to_g = 10100100, open = 1
+At time 67000100ns:sys_rst_n = 1, an = 0100, a_to_g = 10010010, open = 1
+At time 68000100ns:sys_rst_n = 1, an = 1000, a_to_g = 11000000, open = 1
+At time 69000100ns:sys_rst_n = 1, an = 0001, a_to_g = 11000000, open = 1
+At time 70000100ns:sys_rst_n = 1, an = 0010, a_to_g = 10100100, open = 1
+At time 71000100ns:sys_rst_n = 1, an = 0100, a_to_g = 10010010, open = 1
+At time 72000100ns:sys_rst_n = 1, an = 1000, a_to_g = 11000000, open = 1
+At time 73000100ns:sys_rst_n = 1, an = 0001, a_to_g = 11000000, open = 1
+At time 74000100ns:sys_rst_n = 1, an = 0010, a_to_g = 10100100, open = 1
+At time 75000100ns:sys_rst_n = 1, an = 0100, a_to_g = 10010010, open = 1
+At time 76000100ns:sys_rst_n = 1, an = 1000, a_to_g = 11000000, open = 1
+At time 77000100ns:sys_rst_n = 1, an = 0001, a_to_g = 11000000, open = 1
+At time 78000100ns:sys_rst_n = 1, an = 0010, a_to_g = 10100100, open = 1
+At time 79000100ns:sys_rst_n = 1, an = 0100, a_to_g = 10010010, open = 1
+At time 80000100ns:sys_rst_n = 1, an = 1000, a_to_g = 11000000, open = 1
+At time 81000100ns:sys_rst_n = 1, an = 0001, a_to_g = 11000000, open = 1
+At time 82000100ns:sys_rst_n = 1, an = 0010, a_to_g = 10100100, open = 1
+At time 83000100ns:sys_rst_n = 1, an = 0100, a_to_g = 10010010, open = 1
+At time 84000100ns:sys_rst_n = 1, an = 1000, a_to_g = 11000000, open = 1
+At time 85000100ns:sys_rst_n = 1, an = 0001, a_to_g = 11000000, open = 1
+At time 86000100ns:sys_rst_n = 1, an = 0010, a_to_g = 10100100, open = 1
+At time 87000100ns:sys_rst_n = 1, an = 0100, a_to_g = 10010010, open = 1
+At time 88000100ns:sys_rst_n = 1, an = 1000, a_to_g = 11000000, open = 1
+At time 89000100ns:sys_rst_n = 1, an = 0001, a_to_g = 11000000, open = 1
+At time 90000100ns:sys_rst_n = 1, an = 0010, a_to_g = 10100100, open = 1
+At time 91000100ns:sys_rst_n = 1, an = 0100, a_to_g = 10010010, open = 1
+At time 92000100ns:sys_rst_n = 1, an = 1000, a_to_g = 11000000, open = 1
+At time 93000100ns:sys_rst_n = 1, an = 0001, a_to_g = 11000000, open = 1
+At time 94000100ns:sys_rst_n = 1, an = 0010, a_to_g = 10100100, open = 1
+At time 95000100ns:sys_rst_n = 1, an = 0100, a_to_g = 10010010, open = 1
+At time 96000100ns:sys_rst_n = 1, an = 1000, a_to_g = 11000000, open = 1
+At time 97000100ns:sys_rst_n = 1, an = 0001, a_to_g = 11000000, open = 1
+At time 98000100ns:sys_rst_n = 1, an = 0010, a_to_g = 10100100, open = 1
+At time 99000100ns:sys_rst_n = 1, an = 0100, a_to_g = 10010010, open = 1
+At time 100000100ns:sys_rst_n = 1, an = 1000, a_to_g = 11000000, open = 1
+At time 101000100ns:sys_rst_n = 1, an = 0001, a_to_g = 11000000, open = 1
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab4/vend_machine/vend_machine.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Softwares/Vivado2018/Vivado/2018.2/data/xsim/xsim.ini' copied to run dir:'C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab4/vend_machine/vend_machine.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'vend_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab4/vend_machine/vend_machine.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj vend_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab4/vend_machine/vend_machine.srcs/sources_1/ip/bin2bcd_0/bin2bcd.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bin2bcd
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab4/vend_machine/vend_machine.srcs/sources_1/ip/bin2bcd_0/sim/bin2bcd_0.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bin2bcd_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab4/vend_machine/vend_machine.srcs/sources_1/new/FourLights.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FourLights
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab4/vend_machine/vend_machine.srcs/sources_1/new/an_ctrl.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module an_ctrl
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab4/vend_machine/vend_machine.srcs/sources_1/new/clken.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clken
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab4/vend_machine/vend_machine.srcs/sources_1/new/edge_det.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module edge_det
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab4/vend_machine/vend_machine.srcs/sources_1/new/sec_clk.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sec_clk
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab4/vend_machine/vend_machine.srcs/sources_1/new/vend.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module vend
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab4/vend_machine/vend_machine.srcs/sources_1/new/vend_fsm.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module vend_fsm
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab4/vend_machine/vend_machine.srcs/sources_1/new/x7seg_d.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module x7seg_d
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab4/vend_machine/vend_machine.srcs/sim_1/new/vend_tb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module vend_tb
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab4/vend_machine/vend_machine.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Softwares/Vivado2018/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 4759c74710314b46925fb7d38686124c --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot vend_tb_behav xil_defaultlib.vend_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.clken
+Compiling module xil_defaultlib.edge_det
+Compiling module xil_defaultlib.sec_clk
+Compiling module xil_defaultlib.vend_fsm
+Compiling module xil_defaultlib.bin2bcd
+Compiling module xil_defaultlib.bin2bcd_0
+Compiling module xil_defaultlib.an_ctrl
+Compiling module xil_defaultlib.x7seg_d
+Compiling module xil_defaultlib.FourLights
+Compiling module xil_defaultlib.vend
+Compiling module xil_defaultlib.vend_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot vend_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab4/vend_machine/vend_machine.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "vend_tb_behav -key {Behavioral:sim_1:Functional:vend_tb} -tclbatch {vend_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source vend_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+At time   0ns:sys_rst_n = 0, an = 1111, a_to_g = 11000000, open = x
+At time  20ns:sys_rst_n = 0, an = 1111, a_to_g = 11000000, open = 0
+At time 100ns:sys_rst_n = 1, an = 1111, a_to_g = 11000000, open = 0
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'vend_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:10 . Memory (MB): peak = 896.102 ; gain = 0.000
+run all
+At time 1000100ns:sys_rst_n = 1, an = 0001, a_to_g = 10010010, open = 0
+At time 1000300ns:sys_rst_n = 1, an = 0001, a_to_g = 11000000, open = 0
+At time 1000540ns:sys_rst_n = 1, an = 0001, a_to_g = 11000000, open = 1
+At time 2000100ns:sys_rst_n = 1, an = 0010, a_to_g = 10100100, open = 1
+At time 3000100ns:sys_rst_n = 1, an = 0100, a_to_g = 10010010, open = 1
+At time 4000100ns:sys_rst_n = 1, an = 1000, a_to_g = 11000000, open = 1
+At time 5000100ns:sys_rst_n = 1, an = 0001, a_to_g = 11000000, open = 1
+At time 6000100ns:sys_rst_n = 1, an = 0010, a_to_g = 10100100, open = 1
+At time 7000100ns:sys_rst_n = 1, an = 0100, a_to_g = 10010010, open = 1
+At time 8000100ns:sys_rst_n = 1, an = 1000, a_to_g = 11000000, open = 1
+At time 9000100ns:sys_rst_n = 1, an = 0001, a_to_g = 11000000, open = 1
+At time 10000100ns:sys_rst_n = 1, an = 0010, a_to_g = 10100100, open = 1
+At time 11000100ns:sys_rst_n = 1, an = 0100, a_to_g = 10010010, open = 1
+At time 12000100ns:sys_rst_n = 1, an = 1000, a_to_g = 11000000, open = 1
+At time 13000100ns:sys_rst_n = 1, an = 0001, a_to_g = 11000000, open = 1
+At time 14000100ns:sys_rst_n = 1, an = 0010, a_to_g = 10100100, open = 1
+At time 15000100ns:sys_rst_n = 1, an = 0100, a_to_g = 10010010, open = 1
+At time 16000100ns:sys_rst_n = 1, an = 1000, a_to_g = 11000000, open = 1
+At time 17000100ns:sys_rst_n = 1, an = 0001, a_to_g = 11000000, open = 1
+At time 18000100ns:sys_rst_n = 1, an = 0010, a_to_g = 10100100, open = 1
+At time 19000100ns:sys_rst_n = 1, an = 0100, a_to_g = 10010010, open = 1
+At time 20000100ns:sys_rst_n = 1, an = 1000, a_to_g = 11000000, open = 1
+At time 21000100ns:sys_rst_n = 1, an = 0001, a_to_g = 11000000, open = 1
+At time 22000100ns:sys_rst_n = 1, an = 0010, a_to_g = 10100100, open = 1
+At time 23000100ns:sys_rst_n = 1, an = 0100, a_to_g = 10010010, open = 1
+At time 24000100ns:sys_rst_n = 1, an = 1000, a_to_g = 11000000, open = 1
+At time 25000100ns:sys_rst_n = 1, an = 0001, a_to_g = 11000000, open = 1
+At time 26000100ns:sys_rst_n = 1, an = 0010, a_to_g = 10100100, open = 1
+At time 27000100ns:sys_rst_n = 1, an = 0100, a_to_g = 10010010, open = 1
+At time 28000100ns:sys_rst_n = 1, an = 1000, a_to_g = 11000000, open = 1
+At time 29000100ns:sys_rst_n = 1, an = 0001, a_to_g = 11000000, open = 1
+At time 30000100ns:sys_rst_n = 1, an = 0010, a_to_g = 10100100, open = 1
+At time 31000100ns:sys_rst_n = 1, an = 0100, a_to_g = 10010010, open = 1
+At time 32000100ns:sys_rst_n = 1, an = 1000, a_to_g = 11000000, open = 1
+At time 33000100ns:sys_rst_n = 1, an = 0001, a_to_g = 11000000, open = 1
+At time 34000100ns:sys_rst_n = 1, an = 0010, a_to_g = 10100100, open = 1
+At time 35000100ns:sys_rst_n = 1, an = 0100, a_to_g = 10010010, open = 1
+At time 36000100ns:sys_rst_n = 1, an = 1000, a_to_g = 11000000, open = 1
+At time 37000100ns:sys_rst_n = 1, an = 0001, a_to_g = 11000000, open = 1
+At time 38000100ns:sys_rst_n = 1, an = 0010, a_to_g = 10100100, open = 1
+At time 39000100ns:sys_rst_n = 1, an = 0100, a_to_g = 10010010, open = 1
+At time 40000100ns:sys_rst_n = 1, an = 1000, a_to_g = 11000000, open = 1
+At time 41000100ns:sys_rst_n = 1, an = 0001, a_to_g = 11000000, open = 1
+At time 42000100ns:sys_rst_n = 1, an = 0010, a_to_g = 10100100, open = 1
+At time 43000100ns:sys_rst_n = 1, an = 0100, a_to_g = 10010010, open = 1
+At time 44000100ns:sys_rst_n = 1, an = 1000, a_to_g = 11000000, open = 1
+At time 45000100ns:sys_rst_n = 1, an = 0001, a_to_g = 11000000, open = 1
+At time 46000100ns:sys_rst_n = 1, an = 0010, a_to_g = 10100100, open = 1
+At time 47000100ns:sys_rst_n = 1, an = 0100, a_to_g = 10010010, open = 1
+At time 48000100ns:sys_rst_n = 1, an = 1000, a_to_g = 11000000, open = 1
+At time 49000100ns:sys_rst_n = 1, an = 0001, a_to_g = 11000000, open = 1
+At time 50000100ns:sys_rst_n = 1, an = 0010, a_to_g = 10100100, open = 1
+At time 51000100ns:sys_rst_n = 1, an = 0100, a_to_g = 10010010, open = 1
+At time 52000100ns:sys_rst_n = 1, an = 1000, a_to_g = 11000000, open = 1
+At time 53000100ns:sys_rst_n = 1, an = 0001, a_to_g = 11000000, open = 1
+At time 54000100ns:sys_rst_n = 1, an = 0010, a_to_g = 10100100, open = 1
+At time 55000100ns:sys_rst_n = 1, an = 0100, a_to_g = 10010010, open = 1
+At time 56000100ns:sys_rst_n = 1, an = 1000, a_to_g = 11000000, open = 1
+At time 57000100ns:sys_rst_n = 1, an = 0001, a_to_g = 11000000, open = 1
+At time 58000100ns:sys_rst_n = 1, an = 0010, a_to_g = 10100100, open = 1
+At time 59000100ns:sys_rst_n = 1, an = 0100, a_to_g = 10010010, open = 1
+At time 60000100ns:sys_rst_n = 1, an = 1000, a_to_g = 11000000, open = 1
+At time 61000100ns:sys_rst_n = 1, an = 0001, a_to_g = 11000000, open = 1
+At time 62000100ns:sys_rst_n = 1, an = 0010, a_to_g = 10100100, open = 1
+At time 63000100ns:sys_rst_n = 1, an = 0100, a_to_g = 10010010, open = 1
+At time 64000100ns:sys_rst_n = 1, an = 1000, a_to_g = 11000000, open = 1
+At time 65000100ns:sys_rst_n = 1, an = 0001, a_to_g = 11000000, open = 1
+At time 66000100ns:sys_rst_n = 1, an = 0010, a_to_g = 10100100, open = 1
+At time 67000100ns:sys_rst_n = 1, an = 0100, a_to_g = 10010010, open = 1
+At time 68000100ns:sys_rst_n = 1, an = 1000, a_to_g = 11000000, open = 1
+At time 69000100ns:sys_rst_n = 1, an = 0001, a_to_g = 11000000, open = 1
+At time 70000100ns:sys_rst_n = 1, an = 0010, a_to_g = 10100100, open = 1
+At time 71000100ns:sys_rst_n = 1, an = 0100, a_to_g = 10010010, open = 1
+At time 72000100ns:sys_rst_n = 1, an = 1000, a_to_g = 11000000, open = 1
+At time 73000100ns:sys_rst_n = 1, an = 0001, a_to_g = 11000000, open = 1
+At time 74000100ns:sys_rst_n = 1, an = 0010, a_to_g = 10100100, open = 1
+At time 75000100ns:sys_rst_n = 1, an = 0100, a_to_g = 10010010, open = 1
+At time 76000100ns:sys_rst_n = 1, an = 1000, a_to_g = 11000000, open = 1
+At time 77000100ns:sys_rst_n = 1, an = 0001, a_to_g = 11000000, open = 1
+At time 78000100ns:sys_rst_n = 1, an = 0010, a_to_g = 10100100, open = 1
+At time 79000100ns:sys_rst_n = 1, an = 0100, a_to_g = 10010010, open = 1
+At time 80000100ns:sys_rst_n = 1, an = 1000, a_to_g = 11000000, open = 1
+At time 81000100ns:sys_rst_n = 1, an = 0001, a_to_g = 11000000, open = 1
+At time 82000100ns:sys_rst_n = 1, an = 0010, a_to_g = 10100100, open = 1
+At time 83000100ns:sys_rst_n = 1, an = 0100, a_to_g = 10010010, open = 1
+At time 84000100ns:sys_rst_n = 1, an = 1000, a_to_g = 11000000, open = 1
+At time 85000100ns:sys_rst_n = 1, an = 0001, a_to_g = 11000000, open = 1
+At time 86000100ns:sys_rst_n = 1, an = 0010, a_to_g = 10100100, open = 1
+At time 87000100ns:sys_rst_n = 1, an = 0100, a_to_g = 10010010, open = 1
+At time 88000100ns:sys_rst_n = 1, an = 1000, a_to_g = 11000000, open = 1
+At time 89000100ns:sys_rst_n = 1, an = 0001, a_to_g = 11000000, open = 1
+At time 90000100ns:sys_rst_n = 1, an = 0010, a_to_g = 10100100, open = 1
+At time 91000100ns:sys_rst_n = 1, an = 0100, a_to_g = 10010010, open = 1
+At time 92000100ns:sys_rst_n = 1, an = 1000, a_to_g = 11000000, open = 1
+At time 93000100ns:sys_rst_n = 1, an = 0001, a_to_g = 11000000, open = 1
+At time 94000100ns:sys_rst_n = 1, an = 0010, a_to_g = 10100100, open = 1
+At time 95000100ns:sys_rst_n = 1, an = 0100, a_to_g = 10010010, open = 1
+At time 96000100ns:sys_rst_n = 1, an = 1000, a_to_g = 11000000, open = 1
+At time 97000100ns:sys_rst_n = 1, an = 0001, a_to_g = 11000000, open = 1
+At time 98000100ns:sys_rst_n = 1, an = 0010, a_to_g = 10100100, open = 1
+At time 99000100ns:sys_rst_n = 1, an = 0100, a_to_g = 10010010, open = 1
+At time 100000100ns:sys_rst_n = 1, an = 1000, a_to_g = 11000000, open = 1
+At time 101000100ns:sys_rst_n = 1, an = 0001, a_to_g = 11000000, open = 1
+At time 102000100ns:sys_rst_n = 1, an = 0010, a_to_g = 10100100, open = 1
+At time 103000100ns:sys_rst_n = 1, an = 0100, a_to_g = 10010010, open = 1
+At time 104000100ns:sys_rst_n = 1, an = 1000, a_to_g = 11000000, open = 1
+At time 105000100ns:sys_rst_n = 1, an = 0001, a_to_g = 11000000, open = 1
+At time 106000100ns:sys_rst_n = 1, an = 0010, a_to_g = 10100100, open = 1
+At time 107000100ns:sys_rst_n = 1, an = 0100, a_to_g = 10010010, open = 1
+At time 108000100ns:sys_rst_n = 1, an = 1000, a_to_g = 11000000, open = 1
+At time 109000100ns:sys_rst_n = 1, an = 0001, a_to_g = 11000000, open = 1
+At time 110000100ns:sys_rst_n = 1, an = 0010, a_to_g = 10100100, open = 1
+At time 111000100ns:sys_rst_n = 1, an = 0100, a_to_g = 10010010, open = 1
+At time 112000100ns:sys_rst_n = 1, an = 1000, a_to_g = 11000000, open = 1
+At time 113000100ns:sys_rst_n = 1, an = 0001, a_to_g = 11000000, open = 1
+At time 114000100ns:sys_rst_n = 1, an = 0010, a_to_g = 10100100, open = 1
+At time 115000100ns:sys_rst_n = 1, an = 0100, a_to_g = 10010010, open = 1
+At time 116000100ns:sys_rst_n = 1, an = 1000, a_to_g = 11000000, open = 1
+At time 117000100ns:sys_rst_n = 1, an = 0001, a_to_g = 11000000, open = 1
+At time 118000100ns:sys_rst_n = 1, an = 0010, a_to_g = 10100100, open = 1
+At time 119000100ns:sys_rst_n = 1, an = 0100, a_to_g = 10010010, open = 1
+At time 120000100ns:sys_rst_n = 1, an = 1000, a_to_g = 11000000, open = 1
+At time 121000100ns:sys_rst_n = 1, an = 0001, a_to_g = 11000000, open = 1
+At time 122000100ns:sys_rst_n = 1, an = 0010, a_to_g = 10100100, open = 1
+At time 123000100ns:sys_rst_n = 1, an = 0100, a_to_g = 10010010, open = 1
+At time 124000100ns:sys_rst_n = 1, an = 1000, a_to_g = 11000000, open = 1
+At time 125000100ns:sys_rst_n = 1, an = 0001, a_to_g = 11000000, open = 1
+run: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 896.102 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Jun 10 21:46:36 2021...
